@@ -22,7 +22,7 @@ dotenv.config();
 app.use(express.json()) // to parse json data for request body
 app.use(cors({
     credentials:true,
-    origin: `http://localhost:${PORT}`
+    origin: `https://chat-app-cuax.onrender.com`
 })) // to allow cross-origin requests
 app.use(cookieparser()) // to parse cookies from request headers
 // Route call
